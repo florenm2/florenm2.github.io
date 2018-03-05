@@ -1,0 +1,237 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="author" content="">
+
+        <title>
+
+            Computer Services 
+
+        </title>
+
+
+        <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic|Work+Sans:300,400,500,600' rel='stylesheet' type='text/css'>
+        <link href="../assets/css/toolkit-startup.css" rel="stylesheet">
+        <link href="../assets/css/application-startup.css" rel="stylesheet">
+
+
+
+
+        <style>
+            /* note: this is a hack for ios iframe for bootstrap themes shopify page */
+            /* this chunk of css is not part of the toolkit :) */
+            /* …curses ios, etc… */
+            @media (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+                body {
+                    width: 1px;
+                    min-width: 100%;
+                    *width: 100%;
+                }
+                #stage {
+                    height: 1px;
+                    overflow: auto;
+                    min-height: 100vh;
+                    -webkit-overflow-scrolling: touch;
+                }
+            }
+        </style>
+    </head>
+    <body>
+
+
+
+
+        <div class="stage-shelf stage-shelf-right hidden" id="sidebar">
+            <ul class="nav nav-bordered nav-stacked flex-column">
+                <li class="nav-header">Examples</li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="../index.html">Startup</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../minimal/index.html">Minimal</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../bold/index.html">Bold</a>
+                </li>
+                <li class="nav-divider"></li>
+                <li class="nav-header">Docs</li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../docs/index.html">Toolkit</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://getbootstrap.com">Bootstrap</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="stage" id="stage">
+
+            <!--            <div class="block block-secondary app-block-marketing-grid">-->
+
+            <div class="container py-4 fixed-top app-navbar">
+                <nav class="navbar navbar-light navbar-padded navbar-toggleable-sm">
+                    <button
+                            class="navbar-toggler navbar-toggler-right hidden-md-up"
+                            type="button"
+                            data-target="#stage"
+                            data-toggle="stage"
+                            data-distance="-250">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <a class="navbar-brand mr-auto" href="">
+                        <strong style="background: #fff; padding: 12px; border-radius: 4px; color: #28669F;">Computer Services</strong>
+                    </a>
+
+                    <div class="hidden-sm-down text-uppercase">
+                        <ul class="navbar-nav">
+                            <li class="nav-item px-1 ">
+                                <a class="nav-link" href="../index.html">Home Page</a>
+                            </li>
+                            <li class="nav-item px-1 ">
+                                <a class="nav-link" href="../services/index.html">Services</a>
+                            </li>
+                            <li class="nav-item px-1 ">
+                                <a class="nav-link" href="../bold/index.html">Bold</a>
+                            </li>
+                            <li class="nav-item px-1 ">
+                                <a class="nav-link" href="../docs/index.html">Docs</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+
+
+
+
+
+
+
+
+            <div class="block block-bordered-lg" style="padding-top: 150px;">
+                <div class="container">
+                        <div class="text-xs-center">
+                            <div class="col-xs-10 offset-xs-1 col-sm-8 offset-sm-2 col-lg-6 offset-lg-3">
+<!--                                <h6 class="text-muted text-uppercase mb-2">Computer Services Company</h6>-->
+                                <h1  class="mb-4">Services We Offer</h1>
+                            </div>
+                        </div>
+
+<!--
+                    <div class="row">
+                        <div class="col-sm-8 offset-sm-2 text-center mb-5">
+                            <p class="lead mx-auto">With over <strong>20 years of collective experience</strong>, we take the unthinkable and make it just a couple quick taps away.</p>
+                        </div>
+                    </div>
+-->
+                    <div class="row">
+                        <ul class="featured-list">
+                            <li class="mb-5">
+                                <div class="featured-list-icon text-primary">
+                                    <span class="icon icon-image"></span>
+                                </div>
+                                <p class="featured-list-icon-text mb-0"><strong>Networking</strong></p>
+                                <p class="featured-list-icon-text">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec qu.
+                                </p>
+                            </li>
+                            <li class="mb-5">
+                                <div class="featured-list-icon text-primary">
+                                    <span class="icon icon-image"></span>
+                                </div>
+                                <p class="featured-list-icon-text mb-0"><strong>Troubleshooting</strong></p>
+                                <p class="featured-list-icon-text">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec qu.
+                                </p>
+                            </li>
+
+                            <li class="mb-5">
+                                <div class="featured-list-icon text-primary">
+                                    <span class="icon icon-hour-glass"></span>
+                                </div>
+                                <p class="featured-list-icon-text mb-0"><strong>Upgrades</strong></p>
+                                <p class="featured-list-icon-text">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec qu.
+                                </p>
+                            </li>
+                            <li class="mb-5">
+                                <div class="featured-list-icon text-primary">
+                                    <span class="icon icon-cloud"></span>
+                                </div>
+                                <p class="featured-list-icon-text mb-0"><strong>Site Evaluations</strong></p>
+                                <p class="featured-list-icon-text">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec qu.
+                                </p>
+                            </li>
+                            <li class="mb-5">
+                                <div class="featured-list-icon text-primary">
+                                    <span class="icon icon-cloud"></span>
+                                </div>
+                                <p class="featured-list-icon-text mb-0"><strong>Site Advice</strong></p>
+                                <p class="featured-list-icon-text">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec qu.
+                                </p>
+                            </li>
+                            <li class="mb-5">
+                                <div class="featured-list-icon text-primary">
+                                    <span class="icon icon-cloud"></span>
+                                </div>
+                                <p class="featured-list-icon-text mb-0"><strong>Laptops</strong></p>
+                                <p class="featured-list-icon-text">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec qu.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="block block-inverse app-footer" style="padding-bottom: 30px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 mb-5">
+                            <ul class="list-unstyled list-spaced">
+                                <li class="mb-2"><h6 class="text-uppercase">About</h6></li>
+                                <li class="text-muted">
+                                    Our company is centered around the customer. Feel free to reach out to us at <a href="mailto: temporary@notarealemailaddress.com">temporary@notarealemailaddress.com</a>.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2 offset-md-1 mb-5">
+                            <ul class="list-unstyled list-spaced">
+                                <li class="mb-2"><h6 class="text-uppercase">Phone</h6></li>
+                                <li class="text-muted">555-555-5555</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 mb-5">
+                            <ul class="list-unstyled list-spaced">
+                                <li class="mb-2"><h6 class="text-uppercase">Email</h6></li>
+                                <li class="text-muted">temporary@notarealemailaddress.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <script src="../assets/js/jquery.min.js"></script>
+        <script src="../assets/js/tether.min.js"></script>
+        <script src="../assets/js/toolkit.js"></script>
+        <script src="../assets/js/application.js"></script>
+    </body>
+</html>
+

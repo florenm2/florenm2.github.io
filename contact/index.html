@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="author" content="">
+
+        <title>
+
+            Steve's World of Business Inc. 
+
+        </title>
+
+
+        <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic|Work+Sans:300,400,500,600' rel='stylesheet' type='text/css'>
+        <link href="../assets/css/toolkit-startup.css" rel="stylesheet">
+        <link href="../assets/css/application-startup.css" rel="stylesheet">
+
+
+
+
+        <style>
+            /* note: this is a hack for ios iframe for bootstrap themes shopify page */
+            /* this chunk of css is not part of the toolkit :) */
+            /* …curses ios, etc… */
+            @media (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+                body {
+                    width: 1px;
+                    min-width: 100%;
+                    *width: 100%;
+                }
+                #stage {
+                    height: 1px;
+                    overflow: auto;
+                    min-height: 100vh;
+                    -webkit-overflow-scrolling: touch;
+                }
+            }
+        </style>
+    </head>
+    <body>
+
+
+
+
+        <div class="stage-shelf stage-shelf-right hidden" id="sidebar">
+            <ul class="nav nav-bordered nav-stacked flex-column">
+                <li class="nav-item">
+                    <a class="nav-link active" href="../index.html">Home Page</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../services/index.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../about/index.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../contact/index.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="stage" id="stage">
+
+            <!--            <div class="block block-secondary app-block-marketing-grid">-->
+
+            <div class="container py-4 fixed-top app-navbar">
+                <nav class="navbar navbar-light navbar-padded navbar-toggleable-sm">
+                    <button
+                            class="navbar-toggler navbar-toggler-right hidden-md-up"
+                            type="button"
+                            data-target="#stage"
+                            data-toggle="stage"
+                            data-distance="-250">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <a class="navbar-brand mr-auto" href="../index.html">
+                        <strong style="background: #fff; padding: 12px; border-radius: 4px; color: #28669F;">Steve's World of Business Inc.</strong>
+                    </a>
+
+                    <div class="hidden-sm-down text-uppercase">
+                        <ul class="navbar-nav">
+                            <li class="nav-item px-1 ">
+                                <a class="nav-link" href="../index.html">Home Page</a>
+                            </li>
+                            <li class="nav-item px-1 ">
+                                <a class="nav-link" href="../services/index.html">Services</a>
+                            </li>
+                            <li class="nav-item px-1 ">
+                                <a class="nav-link" href="../about/index.html">About Us</a>
+                            </li>
+                            <li class="nav-item px-1 ">
+                                <a class="nav-link" href="../contact/index.html">Contact US</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+
+            <div class="block block-bordered-lg" style="padding-top: 150px;">
+                <div class="container">
+                    <div class="text-xs-center">
+                        <div class="col-xs-10 offset-xs-1 col-sm-8 offset-sm-2 col-lg-6 offset-lg-3">
+                            <h1  class="mb-4">Contact Us</h1>
+                        </div>
+                    </div>
+
+                    <div class="row" style="padding-top: 30px;">
+                        <div class="col-xs-10 offset-xs-1 col-sm-5 offset-sm-1 col-lg-5 offset-lg-1" style="padding-top: 50px;">
+                            <p class="lead mx-auto">
+                                Thank you for your interest in Steve's World of Business Inc.! If you would like to contact us, either use the contact form or send us an email at: </p>
+                            <p class="lead mx-auto"><strong>info@stevesworldofbusiness.com</strong>
+                            </p>
+                            <p class="lead mx-auto" style="padding-top: 20px;">
+                                Give us a call: <br><strong>(516) 672-3302</strong>
+                            </p>
+
+                        </div>
+                        <div class="col-xs-10 offset-xs-1 col-sm-5 offset-sm-1 col-lg-5 offset-lg-1">
+                            <form action="mail.php" method="POST">
+                                <div class="fields">
+                                    <label for="name">Your name</label> 
+                                    <input class="form-control mb-3" id="name" name="email-name" required value type="text" style="display: block">
+                                </div>
+                                <div class="fields">
+                                    <label for="email">Your email address</label> 
+                                    <input class="form-control mb-3 mx-1"  id="email" name="email" required value type="text" style="display: block">
+                                </div>
+                                <div class="fields">
+                                    <label for="message">Message</label>
+                                    <textarea class="form-control mb-3 mx-1"  id="message" name="subject" cols="25" rows="6" style="display: block"></textarea>
+                                </div>
+                                <input  class="btn btn-primary mb-3" type="submit" value="Submit">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="block block-bordered-lg text-center">
+                <div class="container-fluid">
+                    <p class="lead mb-4">
+                        Join our email list to receive updates and special deals!
+                    </p>
+                    <form class="form-inline d-flex justify-content-center">
+                        <input class="form-control mb-3" placeholder="First Name">
+                        <input class="form-control mb-3 mx-1" placeholder="Last Name">
+                        <input class="form-control mb-3 mx-1" type="email" placeholder="Email Address">
+                        <button class="btn btn-primary mb-3">Subscribe</button>
+                    </form>
+                    <small class="text-muted">
+                        Special note about "emails are sent once a week...?"
+                    </small>
+                </div>
+            </div>
+
+
+
+
+            <div class="block block-inverse app-footer" style="padding-bottom: 30px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 mb-5">
+                            <ul class="list-unstyled list-spaced">
+                                <li class="mb-2"><h6 class="text-uppercase">About</h6></li>
+                                <li class="text-muted">
+                                    Our company is centered around the customer. Feel free to reach out to us at <a href="mailto: temporary@notarealemailaddress.com">info@stevesworldofbusiness.com</a>.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2 offset-md-1 mb-5">
+                            <ul class="list-unstyled list-spaced">
+                                <li class="mb-2"><h6 class="text-uppercase">Phone</h6></li>
+                                <li class="text-muted">(516) 672-3302</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 mb-5">
+                            <ul class="list-unstyled list-spaced">
+                                <li class="mb-2"><h6 class="text-uppercase">Email</h6></li>
+                                <li class="text-muted">info@stevesworldofbusiness.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <script src="../assets/js/jquery.min.js"></script>
+        <script src="../assets/js/tether.min.js"></script>
+        <script src="../assets/js/toolkit.js"></script>
+        <script src="../assets/js/application.js"></script>
+    </body>
+</html>
+

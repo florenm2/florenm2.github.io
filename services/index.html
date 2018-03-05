@@ -1,0 +1,254 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="author" content="">
+
+        <title>
+
+            Steve's World of Business Inc. 
+
+        </title>
+
+
+        <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic|Work+Sans:300,400,500,600' rel='stylesheet' type='text/css'>
+        <link href="../assets/css/toolkit-startup.css" rel="stylesheet">
+        <link href="../assets/css/application-startup.css" rel="stylesheet">
+
+
+
+
+        <style>
+            /* note: this is a hack for ios iframe for bootstrap themes shopify page */
+            /* this chunk of css is not part of the toolkit :) */
+            /* …curses ios, etc… */
+            @media (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+                body {
+                    width: 1px;
+                    min-width: 100%;
+                    *width: 100%;
+                }
+                #stage {
+                    height: 1px;
+                    overflow: auto;
+                    min-height: 100vh;
+                    -webkit-overflow-scrolling: touch;
+                }
+            }
+        </style>
+    </head>
+    <body>
+
+
+
+
+        <div class="stage-shelf stage-shelf-right hidden" id="sidebar">
+            <ul class="nav nav-bordered nav-stacked flex-column">
+                <li class="nav-item">
+                    <a class="nav-link active" href="../index.html">Home Page</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../services/index.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../about/index.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../contact/index.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="stage" id="stage">
+
+            <!--            <div class="block block-secondary app-block-marketing-grid">-->
+
+            <div class="container py-4 fixed-top app-navbar">
+                <nav class="navbar navbar-light navbar-padded navbar-toggleable-sm">
+                    <button
+                            class="navbar-toggler navbar-toggler-right hidden-md-up"
+                            type="button"
+                            data-target="#stage"
+                            data-toggle="stage"
+                            data-distance="-250">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+<!--
+                    <a class="navbar-brand mr-auto" href="../index.html">
+                        <strong style="background: #fff; padding: 12px; border-radius: 4px; color: #28669F;">Steve's World of Business Inc.</strong>
+                    </a>
+-->
+                    <a class="navbar-brand mr-auto" href="">
+                            <img src="../assets/img/logo.png" height="72">
+                        </a>
+
+                    <div class="hidden-sm-down text-uppercase">
+                        <ul class="navbar-nav">
+                            <li class="nav-item px-1 ">
+                                <a class="nav-link" href="../index.html">Home Page</a>
+                            </li>
+                            <li class="nav-item px-1 ">
+                                <a class="nav-link" href="../services/index.html">Services</a>
+                            </li>
+                            <li class="nav-item px-1 ">
+                                <a class="nav-link" href="../about/index.html">About Us</a>
+                            </li>
+                            <li class="nav-item px-1 ">
+                                <a class="nav-link" href="../contact/index.html">Contact US</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+
+
+
+
+
+
+
+
+            <div class="block block-bordered-lg" style="padding-top: 150px;">
+                <div class="container">
+                    <div class="text-xs-center">
+                        <div class="col-xs-10 offset-xs-1 col-sm-8 offset-sm-2 col-lg-6 offset-lg-3">
+                            <!--                                <h6 class="text-muted text-uppercase mb-2">Computer Services Company</h6>-->
+                            <h1  class="mb-4">Services We Offer</h1>
+                        </div>
+                    </div>
+
+                    <!--
+<div class="row">
+<div class="col-sm-8 offset-sm-2 text-center mb-5">
+<p class="lead mx-auto">With over <strong>20 years of collective experience</strong>, we take the unthinkable and make it just a couple quick taps away.</p>
+</div>
+</div>
+-->
+                    <div class="row">
+                        <div class="col-sm-10 offset-sm-1">
+                            <ul class="featured-list">
+                                <li class="mb-3">
+                                    <div class="featured-list-icon text-primary">
+                                        <span class="icon icon-image"></span>
+                                    </div>
+                                    <p class="featured-list-icon-text mb-0"><strong>Network Connectivity</strong></p>
+                                    <p class="featured-list-icon-text">
+                                        We can set up a wired or wireless network for you. We also can add additional PCs and devices (such as printers) to your network.
+                                    </p>
+                                </li>
+                                <li class="mb-3">
+                                    <div class="featured-list-icon text-primary">
+                                        <span class="icon icon-image"></span>
+                                    </div>
+                                    <p class="featured-list-icon-text mb-0"><strong>Custom Desktop Computers</strong></p>
+                                    <p class="featured-list-icon-text">
+                                        We build you custom destop computers to your specifications. This provides much better longevity than buying a name brand PC as parts are standard and easily interchanged
+                                    </p>
+                                </li>
+
+                                <li class="mb-3">
+                                    <div class="featured-list-icon text-primary">
+                                        <span class="icon icon-hour-glass"></span>
+                                    </div>
+                                    <p class="featured-list-icon-text mb-0"><strong>Desktop Repair</strong></p>
+                                    <p class="featured-list-icon-text">
+                                        In addition to laptops, we can take care of your desktop PCs ills. The owner is certified in several companies equipment as well as having a background in building his own PCs.
+                                    </p>
+                                </li>
+                                <li class="mb-3">
+                                    <div class="featured-list-icon text-primary">
+                                        <span class="icon icon-cloud"></span>
+                                    </div>
+                                    <p class="featured-list-icon-text mb-0"><strong>Laptop Repair</strong></p>
+                                    <p class="featured-list-icon-text">
+                                        We repair laptops and some tablets/2 in 1  devices as well/
+                                    </p>
+                                </li>
+                                <li class="mb-3">
+                                    <div class="featured-list-icon text-primary">
+                                        <span class="icon icon-cloud"></span>
+                                    </div>
+                                    <p class="featured-list-icon-text mb-0"><strong>Annual Maintenance Contracts</strong></p>
+                                    <p class="featured-list-icon-text">
+                                        For a fixed fee we will provide an annual maintenance contract that includes priority service, 2 preventative service calls per year, and a reduced price on both labor and parts.
+                                    </p>
+                                </li>
+                                <li class="mb-3">
+                                    <div class="featured-list-icon text-primary">
+                                        <span class="icon icon-cloud"></span>
+                                    </div>
+                                    <p class="featured-list-icon-text mb-0"><strong>General Maintenance</strong></p>
+                                    <p class="featured-list-icon-text">
+                                        If your computer is runing slow, we can tune it up for you or suggest the best way to solve this issue. Does your computer have a virus? Again, we can resolve your issue. Want a bigger hard drive or more memory, do you need to install or remove a program and are having problems? Contact us!
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="block block-bordered-lg text-center">
+                <div class="container-fluid">
+                    <p class="lead mb-4">
+                        Join our email list to receive updates and special deals!
+                    </p>
+                    <form class="form-inline d-flex justify-content-center">
+                        <input class="form-control mb-3" placeholder="First Name">
+                        <input class="form-control mb-3 mx-1" placeholder="Last Name">
+                        <input class="form-control mb-3 mx-1" type="email" placeholder="Email Address">
+                        <button class="btn btn-primary mb-3">Subscribe</button>
+                    </form>
+                    <small class="text-muted">
+                        Special note about "emails are sent once a week...?"
+                    </small>
+                </div>
+            </div>
+
+
+
+
+            <div class="block block-inverse app-footer" style="padding-bottom: 30px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 mb-5">
+                            <ul class="list-unstyled list-spaced">
+                                <li class="mb-2"><h6 class="text-uppercase">About</h6></li>
+                                <li class="text-muted">
+                                    Our company is centered around the customer. Feel free to reach out to us at <a href="mailto: temporary@notarealemailaddress.com">info@stevesworldofbusiness.com</a>.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2 offset-md-1 mb-5">
+                            <ul class="list-unstyled list-spaced">
+                                <li class="mb-2"><h6 class="text-uppercase">Phone</h6></li>
+                                <li class="text-muted">(516) 672-3302</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 mb-5">
+                            <ul class="list-unstyled list-spaced">
+                                <li class="mb-2"><h6 class="text-uppercase">Email</h6></li>
+                                <li class="text-muted">info@stevesworldofbusiness.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <script src="../assets/js/jquery.min.js"></script>
+        <script src="../assets/js/tether.min.js"></script>
+        <script src="../assets/js/toolkit.js"></script>
+        <script src="../assets/js/application.js"></script>
+    </body>
+</html>
+
